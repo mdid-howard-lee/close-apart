@@ -278,6 +278,31 @@ header {
     color: #d9c2a4;
 }
 
+
+.button {
+    display: inline-block;
+    padding: 15px 35px;
+    margin-top: 60px;
+
+    background-color: #c48b52;
+    color: white;
+
+    border-radius: 0%;
+    border-color: transparent;
+
+    text-decoration: none;
+    font-family: "Didot", serif;
+    font-size: 1.2rem;
+
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #be9367;
+    color: #54300b;
+}
+
+
 /* Footer */
 
 footer {
@@ -348,5 +373,4 @@ footer {
     .timeline-text h2 {
         font-size: 2.2rem;
     }
-
 }

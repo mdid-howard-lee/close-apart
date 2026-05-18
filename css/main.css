@@ -355,18 +355,6 @@ section {
 
     pointer-events: none;
 }
-.play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    font-size: 3rem;
-    color: white;
-
-    opacity: 0.8;
-    transition: 0.3s;
-}
 
 .trailer-placeholder:hover .play-button {
     opacity: 1;
@@ -525,6 +513,7 @@ footer {
 /* Responsive */
 
 @media (max-width: 768px) {
+    
 
     .navbar {
         flex-direction: column;
