@@ -1,0 +1,4 @@
+-- Remove .git in a folder command
+
+1. cd ~
+2. rm -rf .git
